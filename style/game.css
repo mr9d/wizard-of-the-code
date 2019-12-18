@@ -1,0 +1,50 @@
+.page {
+    /* Sticky footer */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__view-area {
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+
+.game__scale {
+    display: block;
+    height: 100%;
+}
+
+.game__renader-area {
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+}
+
+.render-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.debug {
+    top: 10px;
+    right: 10px;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px;
+    background: white;
+}

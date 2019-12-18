@@ -1,0 +1,81 @@
+{
+    "plugins": [
+        "spellcheck"
+    ],
+    "rules": {
+        "spellcheck/spell-checker": [
+            1,
+            {
+                "comments": true,
+                "strings": true,
+                "identifiers": true,
+                "lang": "en_US",
+                "skipIfMatch": [
+                    "https?://[^s]*",
+                    "^#[0-9A-Fa-f]{3}$",
+                    "^#[0-9A-Fa-f]{6}$",
+                    "^[-\\w]+\/[-\\w\\.]+$" // MIME Types
+                ],
+                "skipWordIfMatch": [
+                    "^\\d+px$" // 123px
+                ],
+                "minLength": 3,
+                "skipWords": [
+                    //
+                    // Commonly known abbreviations
+                    //
+                    "dict", // = dictionary
+                    "utils", // = utilities
+                    "evt", // = event
+                    "ctx", // = context
+                    "rect", // = rectangle
+                    "init", // = initialization
+                    "prev", // = previous
+                    "coords", // = coordinates
+                    "esc", // = escape
+                    "src", // = source
+                    "ctrl", // = control
+                    
+                    //
+                    // IT abbreviations
+                    //
+                    "http", // = Hypertext Transfer Protocol
+                    "https", // = HTTP Secured
+                    "xhr", // = XMLHTTPRequest
+                    "rgb", // = red, green, blue
+                    "rgba", // = red, green, blue, alpha
+                    "hsl", // = hue, saturation, lightness
+                    "api", // = applied prodramming interface
+                    
+                    //
+                    // IT terms
+                    //
+                    "debounce",
+                    "backend",
+                    "popup",
+                    
+                    //
+                    // JavaScript events
+                    //
+                    "keyup",
+                    "keydown",
+                    "mouseup",
+                    "mousedown",
+                    "mousemove",
+
+                    //
+                    // CSS colors
+                    //
+                    "lightgray",
+                    
+                    //
+                    // Project specific
+                    //
+                    "blocklib",
+                    "spritelib",
+                    "collidable"
+                ]
+            }
+        ]
+    }
+}

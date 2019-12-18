@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!-- Our styles -->
+    <link rel="stylesheet" href="style/game.css">
+    <title>Demo game</title>
+</head>
+
+<body class="">
+    <div class="page min-vh-100">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="/">Demo game</a>
+            </div>
+        </nav>
+        <main class="game">
+            <div class="game__view-area">
+                <canvas class="game__scale" width="500" height="300"></canvas>
+                <div class="game__renader-area">
+                    <canvas class="game__background-canvas render-canvas" width="1000" height="600"></canvas>
+                    <canvas class="game__player-canvas render-canvas" width="1000" height="600"></canvas>
+                    <canvas class="game__grass-canvas render-canvas" width="1000" height="600"></canvas>
+                </div>
+            </div>
+        </main>
+        <footer class="footer bg-light py-3">
+            <div class="container">&copy;2K19, Aleksandr Kozlov</div>
+        </footer>
+        <div class="debug position-fixed d-none">123</div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="script/jquery-3.3.1.slim.min.js"></script>
+    <script src="script/popper.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <!-- Our JS -->
+    <script src="script/game/config.js"></script>
+    <script src="script/game/spritelib.js"></script>
+    <script src="script/game/blocklib.js"></script>
+    <script src="script/game/stat.js"></script>
+    <script src="script/game/control.js"></script>
+    <script src="script/game/level.js"></script>
+    <script src="script/game/background.js"></script>
+    <script src="script/game/player.js"></script>
+    <script src="script/game/debug.js"></script>
+    <script src="script/game/game.js"></script>
+    <script src="script/game/timer.js"></script>
+</body>
+
+</html>
