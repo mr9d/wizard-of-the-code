@@ -10,7 +10,11 @@ Fun fact. This project was inspired by [the Code and Magic](https://github.com/h
 
 ## Live version
 
-Available at GitHub pages: <https://mr9d.github.io/wizard-of-the-code/> (deployed from the `master` branch)
+Available at GitHub pages: <https://mr9d.github.io/wizard-of-the-code/>
+
+Also available on Vercel: <https://wizard-of-the-code.vercel.app/>
+
+Both deployed from the `master` branch.
 
 ## Running locally
 
@@ -45,3 +49,4 @@ You can change the game level in any way by modifying the [script/game/level.js]
 - CSS3
 - JavaScript ES6
 - GitHub Pages ([documentation](https://docs.github.com/en/pages))
+- Vercel ([documentation](https://vercel.com/docs))
