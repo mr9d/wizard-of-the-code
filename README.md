@@ -6,6 +6,8 @@ I challenged myself to create a 2D game engine with HTML5 canvas and vanilla ES6
 
 <img src="/screenshots/demo.png">
 
+Fun fact. This project was inspired by [the Code and Magic](https://github.com/htmlacademy/code-and-magic-demo) demo project from the JavaScript course of [HTMLacademy](https://htmlacademy.ru/) which I worked with as a mentor.
+
 ## Live version
 
 Available at GitHub pages: <https://mr9d.github.io/wizard-of-the-code/> (deployed from the `master` branch)
@@ -28,12 +30,14 @@ The game has no objective. If you need a challenge, you can find the second flag
 ### Controls
 
 Left/Right – move.
+
 Alt – jump.
+
 Ctrl – fire (not implemented yet).
 
 ### Level
 
-You can change the game level in any way by modifying the </script/game/level.js> file.
+You can change the game level in any way by modifying the [script/game/level.js](/script/game/level.js) file.
 
 ## Used technologies
 
@@ -41,6 +45,3 @@ You can change the game level in any way by modifying the </script/game/level.js
 - CSS3
 - JavaScript ES6
 - GitHub Pages ([documentation](https://docs.github.com/en/pages))
-
-## Fun fact
-This project was inspired by [the Code and Magic](https://github.com/htmlacademy/code-and-magic-demo) demo project from the JavaScript course of [HTMLacademy](https://htmlacademy.ru/) which I worked with as a mentor.
